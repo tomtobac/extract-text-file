@@ -1,1 +1,1 @@
-require("blob-polyfill");
+import("blob-polyfill");

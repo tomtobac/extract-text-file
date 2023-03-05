@@ -1,17 +1,17 @@
 {
   "name": "extract-text-file",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "description": "utilites to extract raw data from common file formats",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "",
+  "repository": "https://github.com/tomtobac/extract-text-file",
   "files": [
-    "dist"
+    "/dist"
   ],
   "scripts": {
     "test": "vitest",
     "build": "rimraf dist/* && tsc",
-    "prepare": "npm test && npm run build"
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "extract",
